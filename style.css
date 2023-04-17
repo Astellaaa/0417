@@ -1,0 +1,53 @@
+.container {
+    overflow: hidden;
+    width: 1080px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.left {
+    background-color: red;
+    float: left;
+    width: 740px;
+    height: 428px;
+}
+
+.right {
+    background-color: blue;
+    float: right;
+    width: 332px;
+    height: 428px;
+}
+
+.gnb {
+    background-color: green;
+    float: left;
+    padding: 8px 0px;
+}
+
+.gnb > li {
+    list-style-type: none;
+    float: left;
+    padding-left: 16px;
+}
+
+.gnb > li:first-child {
+    padding-left: 0px;
+}
+
+.rank {
+    background-color: yellow;
+    float: right;
+    padding: 8px 0px;
+}
+
+.rank > li {
+    list-style-type: none;
+}
+
+.footer {
+    background-color: yellow;
+    height: 80px;
+}
